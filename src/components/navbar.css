@@ -1,0 +1,51 @@
+.navbar-container {
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+  height: 72px;
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+  transition: top 0.5s ease 0s;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-main {
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.navbar-left {
+  -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding-right: 16px;
+}
+
+.navbar-brand {
+  -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    height: 100%;
+    padding: 8px 0px;
+    position: relative;
+}
+
+.spacer {
+  display: flex;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  height: 72px;
+}
+
+ul.navbar-items {
+  display: flex;
+  margin: 0px;
+}
